@@ -6,11 +6,11 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "NOVA~NRR2TTrS#2mcrrAp4kX9fKJ17NVwyuHpeB3u3u41JxiINsMAS8Tc",
+SESSION_ID: process.env.SESSION_ID || "NOVA~VAZUEQQY#W-MidzmIzdjlId7qALUIWqrh-kiXOO-B8TBPcZjM2JA",
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY NOVA-XMD🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY TECH-ALI🤍*",
 WELCOME: process.env.WELCOME || "true",
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 ANTI_LINK: process.env.ANTI_LINK || "true",
