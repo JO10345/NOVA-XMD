@@ -6,18 +6,18 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "NOVA~VAZUEQQY#W-MidzmIzdjlId7qALUIWqrh-kiXOO-B8TBPcZjM2JA",
+SESSION_ID: process.env.SESSION_ID || "NOVA~gJRhiDSb#7Mgw8oRqoaO4B0AHTba54v67LyDJlzprsyUj7UJSTOU",
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY TECH-ALI🤍*",
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/dqvgr4.jpg",
 PREFIX: process.env.PREFIX || ".",
-BOT_NAME: process.env.BOT_NAME || "NOVA-XMD",
+BOT_NAME: process.env.BOT_NAME || "tech-XMD",
 STICKER_NAME: process.env.STICKER_NAME || "NOVA-XMD",
 CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -41,7 +41,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "true",
 READ_CMD: process.env.READ_CMD || "false",
 DEV: process.env.DEV || "255767862457",
 ANTI_VV: process.env.ANTI_VV || "true",
-ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log",
+ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
 ANTICALL: process.env.ANTICALL || "false"
 };
